@@ -354,8 +354,6 @@ This will allow you to get the status of your order, which will be one of:
 - `problem` (rare, technical issue on our end which we will resolve)
 - `cancelled` (also rare as we do not allow cancellations typically)
 
-It will also allow you to access your proofs (visual images of your letter front and envelope) if the letter has been completed.
-
 ### HTTP Request
 
 `GET https://api.handwrite.io/v1/order/:orderId`
